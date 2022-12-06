@@ -1,0 +1,22 @@
+Binary Search Tree Project
+Soru: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Cevap:
+Root: 7 olur. sırayla elemanlara bakıp sağına ve soluna yerleştiririz.
+5, 7'den küçük 7'nin sol altına yazılır.
+1, 7 ve 5'den küçük 5'in sol altına devam edilir.
+8, 7'den büyük 7'nin sağ altına yazılır.
+3, 7'den ve 5'den küçük sola geçilir. 5'in altında 1 var 1'den büyük 1'in sağ tarafına yazılır.
+6, 7'den küçük sola, 5'den büyük 5'in sağ tarafına yazılır.
+0, sol tarafa geçilir.1'in sol alt kısmına yazılır.
+9, 7 ve 8'den büyük 8'in sağ altına yaılır.
+4, 7'den küçük sol tarafa node'lara bakılarak ilerlenir. 3'den büyük sap kısmına yazlır.
+2, 3'ün sol altına yazılır.
+
+                              7
+                   5                   8
+              1         6                   9
+          0       3
+               2     4 
+               
+               
+https://app.patika.dev/pmkeda
